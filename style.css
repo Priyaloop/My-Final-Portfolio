@@ -1,0 +1,97 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f06, #3b5998);
+    color: #fff;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  
+  /* Header Styles */
+  header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #ffd700;
+    text-shadow: 2px 2px 5px #000;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid #fff;
+    border-radius: 5px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 100px; /* Ensures it's visible below the header */
+  }
+  
+  #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffd700;
+    text-shadow: 1px 1px 3px #000;
+    text-align: center;
+  }
+  
+  .contact-container {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+    gap: 20px; /* Adds space between elements */
+    text-align: center; /* Aligns text in the center */
+  }
+  
+  .contact-photo {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Adds shadow */
+  }
+  
+  .contact-container p {
+    font-size: 1.2rem;
+    color: #fff;
+    max-width: 600px; /* Limits the width of the text */
+    line-height: 1.5; /* Improves readability */
+  }
+  
+  
+  
